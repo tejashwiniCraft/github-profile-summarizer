@@ -24,11 +24,15 @@ Open http://localhost:5173
 npm run build
 npm run preview
 ```
+<img width="1440" height="810" alt="Screenshot 2025-11-05 at 8 30 23 PM" src="https://github.com/user-attachments/assets/56401f40-e3a8-49af-9939-6d02c7d9db0d" />
 
 ## Next steps
 - Add Dockerfile + Jenkinsfile for CI/CD
 - Cache GitHub responses in localStorage to reduce API calls
 # 🧩 GitHub Profile Summarizer
+
+<img width="1440" height="819" alt="Screenshot 2025-11-05 at 8 30 35 PM" src="https://github.com/user-attachments/assets/14b61f35-d4f3-4836-8f3d-251358fc004d" />
+
 
 A modern **React + Vite + Tailwind** web app that summarizes any GitHub profile beautifully.
 
