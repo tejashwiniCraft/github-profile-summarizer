@@ -36,12 +36,12 @@ pipeline {
         sh 'docker push $IMAGE_NAME:latest'
       }
     }
-  }
 
   stage('Deploy image'){
     steps{
       sh 'docker run -d -p 8081:80 $IMAGE_NAME:$IMAGE_TAG'
     }
+   }
   }
 
   post {
