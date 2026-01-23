@@ -16,8 +16,9 @@ pipeline {
 
     stage('Build (Node)') {
       steps {
-        sh 'npm install'
-        sh 'npm run build'
+        sh 'docker run --rm -u $(id -u):$(id -g) -v $PWD:/app -w /app node:20-alpine sh -c "rm -rf node_modules && npm install --cache /tmp/.npm && npm run build"'
+       // sh 'npm install'
+       // sh 'npm run build'
       }
     }
 
