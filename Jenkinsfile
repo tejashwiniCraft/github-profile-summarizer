@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   environment {
-    IMAGE_NAME = "gowrisuresh0109/github-profile-summarizer-2"
+    IMAGE_NAME = "dockerbyteja/github-profile-summarizer"
     IMAGE_TAG = "v${env.BUILD_NUMBER}"
     MAX_REPOS = "50"
   }
